@@ -12,9 +12,11 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+<!--               Region  -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
             android:orientation="horizontal">
 
             <TextView
@@ -22,7 +24,7 @@
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
                 android:layout_height="40dp"
-                android:hint="District"
+                android:hint="@string/hint_region"
                 android:gravity="start|center"
                 android:textSize="20sp"
                 android:layout_marginEnd="2dp"
@@ -34,8 +36,36 @@
                 android:layout_width="wrap_content"
                 android:layout_gravity="end"
                 android:layout_height="wrap_content"
-                android:text="Select"/>
+                android:text="@string/label_select"/>
         </LinearLayout>
+
+<!--        District -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:hint="@string/hint_district"
+                android:gravity="start|center"
+                android:textSize="20sp"
+                android:layout_marginEnd="2dp"
+                android:layout_width="0dp"
+                android:padding="5dp"
+                android:layout_marginRight="5dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_gravity="end"
+                android:layout_height="wrap_content"
+                android:text="@string/label_select"/>
+        </LinearLayout>
+<!--        -->
     </LinearLayout>
 
 </ScrollView>

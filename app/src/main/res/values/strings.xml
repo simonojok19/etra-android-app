@@ -3,4 +3,9 @@
     <string name="hint_district">District</string>
     <string name="label_select">Select</string>
     <string name="hint_region">Region</string>
+    <string name="hint_constituency">Constituency</string>
+    <string name="hint_sub_county">Sub-County</string>
+    <string name="hint_parish">Parish</string>
+    <string name="hint_poling_station">Polling Station</string>
+    <string name="hint_position">Election</string>
 </resources>

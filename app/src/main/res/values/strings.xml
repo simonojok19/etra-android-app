@@ -8,4 +8,8 @@
     <string name="hint_parish">Parish</string>
     <string name="hint_poling_station">Polling Station</string>
     <string name="hint_position">Election</string>
+    <string name="label_56_example">56</string>
+    <string name="hint_candidate_name">Simon P Ojok</string>
+    <string name="label_total_vote">Total Vote</string>
+    <string name="label_photo_dr_forms">Please attach pictures of Declaration Forms [ D . R ]</string>
 </resources>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RollRelay</string>
+    <string name="app_name">PollRelay</string>
     <string name="hint_district">District</string>
     <string name="label_select">Select</string>
     <string name="hint_region">Region</string>

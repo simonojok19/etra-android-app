@@ -230,12 +230,14 @@
        </FrameLayout>
 
         <LinearLayout
+            android:id="@+id/candidate1LinearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/candidate1FullName"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -249,6 +251,7 @@
                 android:layout_marginRight="5dp" />
 
             <EditText
+                android:id="@+id/candidate1NumberVotes"
                 android:layout_width="100dp"
                 android:layout_gravity="end"
                 android:inputType="number"
@@ -259,12 +262,15 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/candidate2LinearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
+            android:visibility="gone"
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/candidate2FullName"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -278,6 +284,7 @@
                 android:layout_marginRight="5dp" />
 
             <EditText
+                android:id="@+id/candidate2NumberVotes"
                 android:layout_width="100dp"
                 android:layout_gravity="end"
                 android:inputType="number"
@@ -288,12 +295,15 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/candidate3LinearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
+            android:visibility="gone"
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/candidate3FullName"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -307,6 +317,7 @@
                 android:layout_marginRight="5dp" />
 
             <EditText
+                android:id="@+id/candidate3NumberVotes"
                 android:layout_width="100dp"
                 android:layout_gravity="end"
                 android:inputType="number"
@@ -317,12 +328,15 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/candidate4LinearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
+            android:visibility="gone"
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/candidate4FullName"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -336,6 +350,7 @@
                 android:layout_marginRight="5dp" />
 
             <EditText
+                android:id="@+id/candidate4NumberVotes"
                 android:layout_width="100dp"
                 android:layout_gravity="end"
                 android:inputType="number"
@@ -346,12 +361,15 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/candidate5LinearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
+            android:visibility="gone"
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/candidate5FullName"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -365,6 +383,7 @@
                 android:layout_marginRight="5dp" />
 
             <EditText
+                android:id="@+id/candidate5NumberVotes"
                 android:layout_width="100dp"
                 android:layout_gravity="end"
                 android:inputType="number"
@@ -375,12 +394,15 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/candidate6LinearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
+            android:visibility="gone"
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/candidate6FullName"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -394,6 +416,7 @@
                 android:layout_marginRight="5dp" />
 
             <EditText
+                android:id="@+id/candidate6NumberVotes"
                 android:layout_width="100dp"
                 android:layout_gravity="end"
                 android:inputType="number"
@@ -404,12 +427,15 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/candidate7LinearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
+            android:visibility="gone"
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/candidate7FullName"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -423,6 +449,7 @@
                 android:layout_marginRight="5dp" />
 
             <EditText
+                android:id="@+id/candidate7NumberVotes"
                 android:layout_width="100dp"
                 android:layout_gravity="end"
                 android:inputType="number"
@@ -433,12 +460,15 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/candidate8LinearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
+            android:visibility="gone"
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/candidate8FullName"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -452,6 +482,7 @@
                 android:layout_marginRight="5dp" />
 
             <EditText
+                android:id="@+id/candidate8NumberVotes"
                 android:layout_width="100dp"
                 android:layout_gravity="end"
                 android:inputType="number"
@@ -462,12 +493,15 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/candidate9LinearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
+            android:visibility="gone"
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/candidate9FullName"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -481,6 +515,7 @@
                 android:layout_marginRight="5dp" />
 
             <EditText
+                android:id="@+id/candidate9NumberVotes"
                 android:layout_width="100dp"
                 android:layout_gravity="end"
                 android:inputType="number"
@@ -491,12 +526,15 @@
         </LinearLayout>
 
         <LinearLayout
+            android:id="@+id/candidate10LinearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
+            android:visibility="gone"
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/candidate10FullName"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -510,6 +548,337 @@
                 android:layout_marginRight="5dp" />
 
             <EditText
+                android:id="@+id/candidate10NumberVotes"
+                android:layout_width="100dp"
+                android:layout_gravity="end"
+                android:inputType="number"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:text="@string/label_56_example"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/candidate11LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/candidate11FullName"
+                android:layout_gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:hint="@string/hint_candidate_name"
+                android:gravity="start|center"
+                android:textSize="20sp"
+                android:layout_marginEnd="2dp"
+                android:layout_width="0dp"
+                android:padding="5dp"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:id="@+id/candidate11NumberVotes"
+                android:layout_width="100dp"
+                android:layout_gravity="end"
+                android:inputType="number"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:text="@string/label_56_example"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/candidate12LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/candidate12FullName"
+                android:layout_gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:hint="@string/hint_candidate_name"
+                android:gravity="start|center"
+                android:textSize="20sp"
+                android:layout_marginEnd="2dp"
+                android:layout_width="0dp"
+                android:padding="5dp"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:id="@+id/candidate12NumberVotes"
+                android:layout_width="100dp"
+                android:layout_gravity="end"
+                android:inputType="number"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:text="@string/label_56_example"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/candidate13LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/candidate13FullName"
+                android:layout_gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:hint="@string/hint_candidate_name"
+                android:gravity="start|center"
+                android:textSize="20sp"
+                android:layout_marginEnd="2dp"
+                android:layout_width="0dp"
+                android:padding="5dp"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:id="@+id/candidate13NumberVotes"
+                android:layout_width="100dp"
+                android:layout_gravity="end"
+                android:inputType="number"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:text="@string/label_56_example"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/candidate14LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/candidate14FullName"
+                android:layout_gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:hint="@string/hint_candidate_name"
+                android:gravity="start|center"
+                android:textSize="20sp"
+                android:layout_marginEnd="2dp"
+                android:layout_width="0dp"
+                android:padding="5dp"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:id="@+id/candidate14NumberVotes"
+                android:layout_width="100dp"
+                android:layout_gravity="end"
+                android:inputType="number"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:text="@string/label_56_example"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/candidate15LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/candidate15FullName"
+                android:layout_gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:hint="@string/hint_candidate_name"
+                android:gravity="start|center"
+                android:textSize="20sp"
+                android:layout_marginEnd="2dp"
+                android:layout_width="0dp"
+                android:padding="5dp"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:id="@+id/candidate15NumberVotes"
+                android:layout_width="100dp"
+                android:layout_gravity="end"
+                android:inputType="number"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:text="@string/label_56_example"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/candidate16LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/candidate16FullName"
+                android:layout_gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:hint="@string/hint_candidate_name"
+                android:gravity="start|center"
+                android:textSize="20sp"
+                android:layout_marginEnd="2dp"
+                android:layout_width="0dp"
+                android:padding="5dp"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:id="@+id/candidate16NumberVotes"
+                android:layout_width="100dp"
+                android:layout_gravity="end"
+                android:inputType="number"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:text="@string/label_56_example"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/candidate17LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/candidate17FullName"
+                android:layout_gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:hint="@string/hint_candidate_name"
+                android:gravity="start|center"
+                android:textSize="20sp"
+                android:layout_marginEnd="2dp"
+                android:layout_width="0dp"
+                android:padding="5dp"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:id="@+id/candidate17NumberVotes"
+                android:layout_width="100dp"
+                android:layout_gravity="end"
+                android:inputType="number"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:text="@string/label_56_example"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/candidate18LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/candidate18FullName"
+                android:layout_gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:hint="@string/hint_candidate_name"
+                android:gravity="start|center"
+                android:textSize="20sp"
+                android:layout_marginEnd="2dp"
+                android:layout_width="0dp"
+                android:padding="5dp"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:id="@+id/candidate18NumberVotes"
+                android:layout_width="100dp"
+                android:layout_gravity="end"
+                android:inputType="number"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:text="@string/label_56_example"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/candidate19LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/candidate19FullName"
+                android:layout_gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:hint="@string/hint_candidate_name"
+                android:gravity="start|center"
+                android:textSize="20sp"
+                android:layout_marginEnd="2dp"
+                android:layout_width="0dp"
+                android:padding="5dp"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:id="@+id/candidate19NumberVotes"
+                android:layout_width="100dp"
+                android:layout_gravity="end"
+                android:inputType="number"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:text="@string/label_56_example"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/candidate20LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:visibility="gone"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/candidate20FullName"
+                android:layout_gravity="center"
+                android:background="@drawable/border_rectangular"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:hint="@string/hint_candidate_name"
+                android:gravity="start|center"
+                android:textSize="20sp"
+                android:layout_marginEnd="2dp"
+                android:layout_width="0dp"
+                android:padding="5dp"
+                android:layout_marginRight="5dp" />
+
+            <EditText
+                android:id="@+id/candidate20NumberVotes"
                 android:layout_width="100dp"
                 android:layout_gravity="end"
                 android:inputType="number"

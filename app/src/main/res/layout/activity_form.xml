@@ -34,6 +34,7 @@
                 android:layout_marginRight="5dp" />
 
             <Button
+                android:id="@+id/selectRegionButton"
                 android:onClick="selectRegion"
                 android:layout_width="wrap_content"
                 android:layout_gravity="end"
@@ -63,6 +64,7 @@
                 android:layout_marginRight="5dp" />
 
             <Button
+                android:id="@+id/selectDistrictButton"
                 android:onClick="selectDistrict"
                 android:layout_width="wrap_content"
                 android:layout_gravity="end"
@@ -91,6 +93,7 @@
                 android:layout_marginRight="5dp" />
 
             <Button
+                android:id="@+id/selectConstituencyButton"
                 android:onClick="selectConstituency"
                 android:layout_width="wrap_content"
                 android:layout_gravity="end"
@@ -119,6 +122,7 @@
                 android:layout_marginRight="5dp" />
 
             <Button
+                android:id="@+id/selectSubCountyButton"
                 android:onClick="selectSubCounty"
                 android:layout_width="wrap_content"
                 android:layout_gravity="end"
@@ -147,6 +151,7 @@
                 android:layout_marginRight="5dp" />
 
             <Button
+                android:id="@+id/selectParishButton"
                 android:onClick="selectParish"
                 android:layout_width="wrap_content"
                 android:layout_gravity="end"
@@ -175,6 +180,7 @@
                 android:layout_marginRight="5dp" />
 
             <Button
+                android:id="@+id/selectPollingStationButton"
                 android:onClick="selectPollingStation"
                 android:layout_width="wrap_content"
                 android:layout_gravity="end"

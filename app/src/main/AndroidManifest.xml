@@ -11,7 +11,6 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,8 +22,7 @@
             android:name=".login.LoginActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".settings.SettingsActivity"
-            android:label="@string/title_activity_settings" />
+            android:name=".settings.SettingsActivity" />
         <activity android:name=".form.FormActivity" />
     </application>
 

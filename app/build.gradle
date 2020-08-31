@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "co.veritasinteractive.rollrelay"
+        applicationId "co.veritasinteractive.pollrelay"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1

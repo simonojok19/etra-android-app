@@ -1,4 +1,4 @@
-package co.veritasinteractive.rollrelay
+package co.veritasinteractive.pollrelay
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("co.veritasinteractive.rollrelay", appContext.packageName)
+        assertEquals("co.veritasinteractive.pollrelay", appContext.packageName)
     }
 }

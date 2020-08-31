@@ -1,4 +1,4 @@
-package co.veritasinteractive.rollrelay
+package co.veritasinteractive.pollrelay
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

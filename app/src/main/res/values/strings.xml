@@ -12,4 +12,5 @@
     <string name="hint_candidate_name">Simon P Ojok</string>
     <string name="label_total_vote">Total Vote</string>
     <string name="label_photo_dr_forms">Please attach pictures of Declaration Forms [ D . R ]</string>
+    <string name="label_election_results">Election Results</string>
 </resources>

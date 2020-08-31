@@ -20,6 +20,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/regionTextView"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -33,6 +34,7 @@
                 android:layout_marginRight="5dp" />
 
             <Button
+                android:onClick="selectRegion"
                 android:layout_width="wrap_content"
                 android:layout_gravity="end"
                 android:layout_height="wrap_content"
@@ -47,6 +49,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/districtTextView"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -60,6 +63,7 @@
                 android:layout_marginRight="5dp" />
 
             <Button
+                android:onClick="selectDistrict"
                 android:layout_width="wrap_content"
                 android:layout_gravity="end"
                 android:layout_height="wrap_content"
@@ -73,6 +77,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/constituencyTextView"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -86,6 +91,7 @@
                 android:layout_marginRight="5dp" />
 
             <Button
+                android:onClick="selectConstituency"
                 android:layout_width="wrap_content"
                 android:layout_gravity="end"
                 android:layout_height="wrap_content"
@@ -99,6 +105,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/subCountyTextView"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -112,6 +119,7 @@
                 android:layout_marginRight="5dp" />
 
             <Button
+                android:onClick="selectSubCounty"
                 android:layout_width="wrap_content"
                 android:layout_gravity="end"
                 android:layout_height="wrap_content"
@@ -125,6 +133,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/parishTextView"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -138,6 +147,7 @@
                 android:layout_marginRight="5dp" />
 
             <Button
+                android:onClick="selectParish"
                 android:layout_width="wrap_content"
                 android:layout_gravity="end"
                 android:layout_height="wrap_content"
@@ -151,6 +161,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/pollingStationEditText"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -164,6 +175,7 @@
                 android:layout_marginRight="5dp" />
 
             <Button
+                android:onClick="selectPollingStation"
                 android:layout_width="wrap_content"
                 android:layout_gravity="end"
                 android:layout_height="wrap_content"
@@ -177,6 +189,7 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/positionTextView"
                 android:layout_gravity="center"
                 android:background="@drawable/border_rectangular"
                 android:layout_weight="1"
@@ -190,6 +203,7 @@
                 android:layout_marginRight="5dp" />
 
             <Button
+                android:onClick="selectPosition"
                 android:layout_width="wrap_content"
                 android:layout_gravity="end"
                 android:layout_height="wrap_content"
@@ -205,7 +219,7 @@
            <TextView
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
-               android:text="Election Results"
+               android:text="@string/label_election_results"
                android:gravity="center"
                android:background="@drawable/round_border_rectangle"
                android:padding="10dp"

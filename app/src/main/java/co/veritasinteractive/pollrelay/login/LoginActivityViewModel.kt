@@ -1,4 +1,12 @@
 package co.veritasinteractive.pollrelay.login
 
-class LoginActivityViewModel {
+import android.app.Application
+import android.text.Editable
+import androidx.lifecycle.AndroidViewModel
+
+class LoginActivityViewModel(application: Application): AndroidViewModel(application) {
+    fun loginUser(username: String, password: String) {
+        TODO("Not yet implemented")
+    }
+
 }

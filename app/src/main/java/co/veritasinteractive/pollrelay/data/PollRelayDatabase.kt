@@ -8,7 +8,7 @@ import co.veritasinteractive.pollrelay.data.dao.UgDataDao
 import co.veritasinteractive.pollrelay.data.entities.UgData
 
 @Database(entities = [UgData::class], version = 1, exportSchema = false)
-abstract class PollRelayDatabase: RoomDatabase {
+abstract class PollRelayDatabase: RoomDatabase() {
     abstract fun ugDataDao(): UgDataDao
 
     companion object {

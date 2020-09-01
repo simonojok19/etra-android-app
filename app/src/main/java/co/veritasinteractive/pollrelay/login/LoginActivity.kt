@@ -30,15 +30,12 @@ class LoginActivity : AppCompatActivity() {
         password = findViewById<EditText>(R.id.password)
         login = findViewById<Button>(R.id.login)
         loading = findViewById<ProgressBar>(R.id.loading)
+        login.setOnClickListener {
+            loading.visibility = View.VISIBLE
+            loginActivityViewModel.loginUser(username.text.toString(), password.text.toString())
+            startActivity(Intent(this, MainActivity::class.java))
+            finish()
+        }
 
     }
-
-    fun login(view: View) {
-        loading.visibility = View.VISIBLE
-        loginActivityViewModel.loginUser(username.text.toString(), password.text.toString())
-        startActivity(Intent(this, MainActivity::class.java))
-        finish()
-    }
-
-
 }

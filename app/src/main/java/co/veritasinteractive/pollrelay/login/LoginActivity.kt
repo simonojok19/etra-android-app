@@ -1,5 +1,6 @@
 package co.veritasinteractive.pollrelay.login
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +8,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
 import androidx.lifecycle.ViewModelProviders
+import co.veritasinteractive.pollrelay.MainActivity
 import co.veritasinteractive.pollrelay.R
 import kotlinx.android.synthetic.main.activity_login.*
 
@@ -34,6 +36,8 @@ class LoginActivity : AppCompatActivity() {
     fun login(view: View) {
         loading.visibility = View.VISIBLE
         loginActivityViewModel.loginUser(username.text.toString(), password.text.toString())
+        startActivity(Intent(this, MainActivity::class.java))
+        finish()
     }
 
 

@@ -15,7 +15,7 @@ import com.android.volley.toolbox.JsonObjectRequest
 import org.json.JSONObject
 
 class UgDataDownloadWorker(
-    val context: Context,
+    private val context: Context,
     workerParams: WorkerParameters): Worker(
     context,
     workerParams

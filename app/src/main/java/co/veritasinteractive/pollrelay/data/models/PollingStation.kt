@@ -2,9 +2,7 @@ package co.veritasinteractive.pollrelay.data.models
 
 import android.os.Parcel
 import android.os.Parcelable
-import androidx.room.Entity
 
-@Entity(tableName = "polling_station")
 data class PollingStation(var name: String?): Parcelable {
     constructor(parcel: Parcel) : this(parcel.readString()) {
     }

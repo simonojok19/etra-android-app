@@ -5,6 +5,7 @@ import android.content.res.AssetManager
 import android.util.Log
 import androidx.room.Room
 import co.veritasinteractive.pollrelay.data.PollRelayDatabase
+import co.veritasinteractive.pollrelay.data.models.District
 import co.veritasinteractive.pollrelay.data.models.Region
 import com.google.gson.Gson
 import java.io.BufferedReader
@@ -12,7 +13,7 @@ import java.io.InputStreamReader
 
 class PollRelayRepository(context: Context) {
     private var database: PollRelayDatabase? = null;
-    lateinit var region: Region;
+    var district:District? = null;
 
     companion object {
         @Volatile
@@ -38,10 +39,10 @@ class PollRelayRepository(context: Context) {
         val assetManager: AssetManager = context.applicationContext.assets
         val inputStream = assetManager.open("ug_data/ugdata.json")
         val bufferedReader = BufferedReader(InputStreamReader(inputStream))
-        val data: co.veritasinteractive.pollrelay.data.models.Region = Gson().fromJson(bufferedReader, co.veritasinteractive.pollrelay.data.models.Region::class.java)
+        val data: District = Gson().fromJson(bufferedReader, co.veritasinteractive.pollrelay.data.models.District::class.java)
         data.let {
-            region = it
+            district = it
         }
-        Log.d("MainActivity", region.toString())
+        Log.d("MainActivity", district.toString())
     }
 }

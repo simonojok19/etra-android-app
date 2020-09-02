@@ -15,8 +15,8 @@ class ConstituencyAdapter(private val counties: Array<County>, val context: Cont
     class ConstituencyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         private var initialView = itemView.findViewById<TextView>(R.id.item_initial)
         private var itemName = itemView.findViewById<TextView>(R.id.item_name)
-        fun bind(county: County) {
-            initialView.text = "A"
+        fun bind(county: County, position: Int) {
+            initialView.text = position.toString()
             itemName.text = county.name
         }
 
@@ -29,7 +29,7 @@ class ConstituencyAdapter(private val counties: Array<County>, val context: Cont
     }
 
     override fun onBindViewHolder(holder: ConstituencyViewHolder, position: Int) {
-        holder.bind(counties[position])
+        holder.bind(counties[position], position)
     }
 
     override fun getItemCount(): Int {

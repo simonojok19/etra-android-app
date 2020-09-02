@@ -4,12 +4,26 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import co.veritasinteractive.pollrelay.R
 import co.veritasinteractive.pollrelay.data.models.PollingStation
 
-class PollingStationAdapter(val pollingStations: Array<PollingStation>, val context: Context): RecyclerView.Adapter<PollingStationAdapter.PollingStationViewHolder>(){
+class PollingStationAdapter(private val pollingStations: Array<PollingStation>, val context: Context): RecyclerView.Adapter<PollingStationAdapter.PollingStationViewHolder>(){
+    private val onPollingClickListener = context as OnPollingClickListener
+
+
     class PollingStationViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
+        private val textView: TextView = itemView.findViewById(R.id.item_name)
+        fun bind(
+            pollingStation: PollingStation,
+            onPollingClickListener: OnPollingClickListener
+        ) {
+            textView.text = pollingStation.name
+            itemView.setOnClickListener {
+                onPollingClickListener.onPollingStationClick(pollingStation)
+            }
+        }
 
     }
 
@@ -19,7 +33,7 @@ class PollingStationAdapter(val pollingStations: Array<PollingStation>, val cont
     }
 
     override fun onBindViewHolder(holder: PollingStationViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        holder.bind(pollingStations[position], onPollingClickListener)
     }
 
     override fun getItemCount(): Int {

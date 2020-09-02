@@ -13,6 +13,7 @@ import co.veritasinteractive.pollrelay.data.models.Parish
 import co.veritasinteractive.pollrelay.data.models.SubCounty
 import co.veritasinteractive.pollrelay.dialogs.constituency.ConstituencySelectDialogActivity
 import co.veritasinteractive.pollrelay.dialogs.parish.ParishSelectActivity
+import co.veritasinteractive.pollrelay.dialogs.polling_station.PollingStationSelectActivity
 import co.veritasinteractive.pollrelay.dialogs.sub_county.SubCountySelectActivity
 import kotlinx.android.synthetic.main.activity_form.*
 
@@ -22,11 +23,13 @@ class FormActivity : AppCompatActivity() {
     private lateinit var county: County
     private lateinit var subCounty: SubCounty
     private lateinit var parish: Parish
+    private lateinit var pollingStationName: String
 
     companion object {
         private const val CONSTITUENCY_REQUEST_CODE: Int = 676
         private const val SUB_COUNTY_REQUEST_CODE = 675
         private const val PARISH_REQUEST_CODE = 674
+        private const val POLLING_STATION_REQUEST_CODE = 673
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,6 +40,7 @@ class FormActivity : AppCompatActivity() {
         selectSubCountyButton.isEnabled = false
         selectParishButton.isEnabled = false
         selectPollingStationButton.isEnabled = false
+        positionSelectionBtn.isEnabled = false
 
     }
     fun selectConstituency(view: View) {
@@ -54,7 +58,11 @@ class FormActivity : AppCompatActivity() {
         intent.putExtra(ParishSelectActivity.SUB_COUNTY, subCounty)
         startActivityForResult(intent, PARISH_REQUEST_CODE)
     }
-    fun selectPollingStation(view: View) {}
+    fun selectPollingStation(view: View) {
+        val intent = Intent(this, PollingStationSelectActivity::class.java)
+        intent.putExtra(PollingStationSelectActivity.PARISH, parish)
+        startActivityForResult(intent, POLLING_STATION_REQUEST_CODE)
+    }
     fun selectPosition(view: View) {}
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -78,6 +86,13 @@ class FormActivity : AppCompatActivity() {
                     parish = data.getParcelableExtra<Parish>(ParishSelectActivity.PARISH)!!
                     parishTextView.text = parish.name
                     selectPollingStationButton.isEnabled = true
+                }
+
+                POLLING_STATION_REQUEST_CODE -> {
+                    pollingStationName =
+                        data.getStringExtra(PollingStationSelectActivity.POLLING_STATION).toString()
+                    pollingStationEditText.text = pollingStationName
+                    positionSelectionBtn.isEnabled = true
                 }
             }
         }

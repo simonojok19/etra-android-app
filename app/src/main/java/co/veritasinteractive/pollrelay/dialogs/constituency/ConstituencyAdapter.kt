@@ -8,16 +8,17 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import co.veritasinteractive.pollrelay.R
 import co.veritasinteractive.pollrelay.data.models.County
-import co.veritasinteractive.pollrelay.data.models.SubCounty
 
 class ConstituencyAdapter(private val counties: Array<County>, val context: Context): RecyclerView.Adapter<ConstituencyAdapter.ConstituencyViewHolder>() {
+    private val onItemClickListener: OnItemClickListener = context as OnItemClickListener
 
     class ConstituencyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
-        private var initialView = itemView.findViewById<TextView>(R.id.item_initial)
         private var itemName = itemView.findViewById<TextView>(R.id.item_name)
-        fun bind(county: County, position: Int) {
-            initialView.text = position.toString()
+        fun bind(county: County, onItemClickListener: OnItemClickListener) {
             itemName.text = county.name
+            itemView.setOnClickListener {
+                onItemClickListener.onItemClick(county)
+            }
         }
 
 
@@ -29,10 +30,14 @@ class ConstituencyAdapter(private val counties: Array<County>, val context: Cont
     }
 
     override fun onBindViewHolder(holder: ConstituencyViewHolder, position: Int) {
-        holder.bind(counties[position], position)
+        holder.bind(counties[position], onItemClickListener)
     }
 
     override fun getItemCount(): Int {
         return counties.size
+    }
+
+    public interface OnItemClickListener {
+        fun onItemClick(county: County)
     }
 }

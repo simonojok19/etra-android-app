@@ -10,7 +10,7 @@ import co.veritasinteractive.pollrelay.data.models.County
 import co.veritasinteractive.pollrelay.data.models.District
 import kotlinx.android.synthetic.main.activity_constituency_sellect_dialog.*
 
-class ConstituencySelectDialog : Activity() {
+class ConstituencySelectDialog : AppCompatActivity() {
     companion object {
         val CONSTITUENCY = "co.veritasinteractive.pollrelay.dialogs.constituency.ConstituencySelectDialog.CONSTITUENCY"
     }

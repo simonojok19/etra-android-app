@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:theme="@style/AppTheme.Dialog"
+            android:parentActivityName=".form.FormActivity"
             android:name=".dialogs.constituency.ConstituencySelectDialog" />
 
         <uses-library

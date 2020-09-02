@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".dialogs.parish.ParishSelectActivity"></activity>
+        <activity android:name=".dialogs.polling_station.PollingStationSelectActivity"></activity>
+        <activity android:name=".dialogs.parish.ParishSelectActivity" />
         <activity
             android:name=".dialogs.sub_county.SubCountySelectActivity"
             android:parentActivityName=".form.FormActivity" />

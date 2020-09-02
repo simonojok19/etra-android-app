@@ -37,7 +37,7 @@ class FormActivity : AppCompatActivity() {
     }
     fun selectSubCounty(view: View) {
         val intent = Intent(this, SubCountySelectActivity::class.java)
-        intent.putExtra(SubCountySelectActivity.SUB_COUNTY, county.subcounties)
+        intent.putExtra(SubCountySelectActivity.COUNTY, county)
         startActivityForResult(intent, COUNTY_REQUEST_CODE)
     }
     fun selectParish(view: View) {}

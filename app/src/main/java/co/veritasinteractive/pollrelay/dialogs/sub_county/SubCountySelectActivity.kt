@@ -1,4 +1,4 @@
-package co.veritasinteractive.pollrelay.dialogs.constituency.sub_county
+package co.veritasinteractive.pollrelay.dialogs.sub_county
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".dialogs.constituency.sub_county.SubCountySelectActivity">
+    tools:context=".dialogs.sub_county.SubCountySelectActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,6 +1,7 @@
 package co.veritasinteractive.pollrelay.dialogs.constituency
 
 import android.app.Activity
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -13,7 +14,8 @@ import kotlinx.android.synthetic.main.activity_constituency_sellect_dialog.*
 
 class ConstituencySelectDialog : AppCompatActivity(), ConstituencyAdapter.OnItemClickListener {
     companion object {
-        val CONSTITUENCY = "co.veritasinteractive.pollrelay.dialogs.constituency.ConstituencySelectDialog.CONSTITUENCY"
+        const val CONSTITUENCY = "co.veritasinteractive.pollrelay.dialogs.constituency.ConstituencySelectDialog.CONSTITUENCY"
+        const val COUNTY = "co.veritasinteractive.pollrelay.dialogs.constituency.ConstituencySelectDialog.COUNTY"
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,6 +32,9 @@ class ConstituencySelectDialog : AppCompatActivity(), ConstituencyAdapter.OnItem
     }
 
     override fun onItemClick(county: County) {
-        Toast.makeText(this, county.name, Toast.LENGTH_LONG).show()
+        val intent = Intent()
+        intent.putExtra(COUNTY, county)
+        setResult(RESULT_OK, intent)
+        finish()
     }
 }

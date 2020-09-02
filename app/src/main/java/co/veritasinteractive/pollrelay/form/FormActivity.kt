@@ -9,8 +9,10 @@ import androidx.lifecycle.ViewModelProvider
 import co.veritasinteractive.pollrelay.R
 import co.veritasinteractive.pollrelay.data.models.County
 import co.veritasinteractive.pollrelay.data.models.District
+import co.veritasinteractive.pollrelay.data.models.Parish
 import co.veritasinteractive.pollrelay.data.models.SubCounty
 import co.veritasinteractive.pollrelay.dialogs.constituency.ConstituencySelectDialogActivity
+import co.veritasinteractive.pollrelay.dialogs.parish.ParishSelectActivity
 import co.veritasinteractive.pollrelay.dialogs.sub_county.SubCountySelectActivity
 import kotlinx.android.synthetic.main.activity_form.*
 
@@ -19,10 +21,12 @@ class FormActivity : AppCompatActivity() {
     private lateinit var district: District
     private lateinit var county: County
     private lateinit var subCounty: SubCounty
+    private lateinit var parish: Parish
 
     companion object {
         private const val CONSTITUENCY_REQUEST_CODE: Int = 676
         private const val SUB_COUNTY_REQUEST_CODE = 675
+        private const val PARISH_REQUEST_CODE = 674
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,7 +49,11 @@ class FormActivity : AppCompatActivity() {
         intent.putExtra(SubCountySelectActivity.COUNTY, county)
         startActivityForResult(intent, SUB_COUNTY_REQUEST_CODE)
     }
-    fun selectParish(view: View) {}
+    fun selectParish(view: View) {
+        val intent = Intent(this, ParishSelectActivity::class.java)
+        intent.putExtra(ParishSelectActivity.SUB_COUNTY, subCounty)
+        startActivityForResult(intent, PARISH_REQUEST_CODE)
+    }
     fun selectPollingStation(view: View) {}
     fun selectPosition(view: View) {}
 
@@ -64,6 +72,12 @@ class FormActivity : AppCompatActivity() {
                     subCounty = data.getParcelableExtra<SubCounty>(SubCountySelectActivity.SUB_COUNTY)!!
                     subCountyTextView.text = subCounty.name
                     selectParishButton.isEnabled = true
+                }
+
+                PARISH_REQUEST_CODE -> {
+                    parish = data.getParcelableExtra<Parish>(ParishSelectActivity.PARISH)!!
+                    parishTextView.text = parish.name
+                    selectPollingStationButton.isEnabled = true
                 }
             }
         }

@@ -1,6 +1,7 @@
 package co.veritasinteractive.pollrelay.workers
 
 import android.content.Context
+import android.util.Log
 import androidx.work.Worker
 import androidx.work.WorkerParameters
 import co.veritasinteractive.pollrelay.UG_DATA_URL
@@ -29,10 +30,10 @@ class UgDataDownloadWorker(
            UG_DATA_URL,
            JSONObject(),
            {
-
+                Log.d("Worker", "Response JSON")
            },
            {
-
+               Log.d("Worker", "Response Error")
            }
 
        )

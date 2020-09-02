@@ -30,6 +30,9 @@ class FormActivity : AppCompatActivity() {
         setContentView(R.layout.activity_form)
         viewModel = ViewModelProvider(this).get(FormActivityViewModel::class.java)
         district = viewModel.getDistrict()
+        selectSubCountyButton.isEnabled = false
+        selectParishButton.isEnabled = false
+        selectPollingStationButton.isEnabled = false
 
     }
     fun selectConstituency(view: View) {
@@ -54,11 +57,13 @@ class FormActivity : AppCompatActivity() {
                 CONSTITUENCY_REQUEST_CODE -> {
                     county = data.getParcelableExtra<County>(ConstituencySelectDialogActivity.COUNTY)!!
                     constituencyTextView.text = county.name
+                    selectSubCountyButton.isEnabled = true
                 }
 
                 SUB_COUNTY_REQUEST_CODE -> {
                     subCounty = data.getParcelableExtra<SubCounty>(SubCountySelectActivity.SUB_COUNTY)!!
                     subCountyTextView.text = subCounty.name
+                    selectParishButton.isEnabled = true
                 }
             }
         }

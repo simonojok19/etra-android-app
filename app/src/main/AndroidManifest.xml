@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:parentActivityName=".form.FormActivity"
-            android:name=".dialogs.constituency.ConstituencySelectDialog" />
+            android:name=".dialogs.constituency.ConstituencySelectDialogActivity" />
 
         <uses-library
             android:name="org.apache.http.legacy"

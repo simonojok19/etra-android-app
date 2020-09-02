@@ -7,7 +7,7 @@ import android.view.View
 import androidx.lifecycle.ViewModelProvider
 import co.veritasinteractive.pollrelay.R
 import co.veritasinteractive.pollrelay.data.models.District
-import co.veritasinteractive.pollrelay.dialogs.constituency.ConstituencySelectDialog
+import co.veritasinteractive.pollrelay.dialogs.constituency.ConstituencySelectDialogActivity
 import kotlinx.android.synthetic.main.activity_form.*
 
 class FormActivity : AppCompatActivity() {
@@ -22,8 +22,8 @@ class FormActivity : AppCompatActivity() {
 
     }
     fun selectConstituency(view: View) {
-        val intent = Intent(this, ConstituencySelectDialog::class.java)
-        intent.putExtra(ConstituencySelectDialog.CONSTITUENCY, district)
+        val intent = Intent(this, ConstituencySelectDialogActivity::class.java)
+        intent.putExtra(ConstituencySelectDialogActivity.CONSTITUENCY, district)
         startActivity(intent)
     }
     fun selectSubCounty(view: View) {}

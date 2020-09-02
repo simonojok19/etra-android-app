@@ -10,13 +10,19 @@ import co.veritasinteractive.pollrelay.R
 import co.veritasinteractive.pollrelay.data.models.County
 import co.veritasinteractive.pollrelay.data.models.District
 import co.veritasinteractive.pollrelay.dialogs.constituency.ConstituencySelectDialogActivity
+import co.veritasinteractive.pollrelay.dialogs.sub_county.SubCountySelectActivity
 import kotlinx.android.synthetic.main.activity_form.*
 
 class FormActivity : AppCompatActivity() {
     private lateinit var viewModel: FormActivityViewModel
     private lateinit var district: District
-    private val CONSTITUENCY_REQUEST_CODE: Int = 676
     private lateinit var county: County
+
+    companion object {
+        private const val CONSTITUENCY_REQUEST_CODE: Int = 676
+        private const val COUNTY_REQUEST_CODE = 675
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_form)
@@ -29,7 +35,11 @@ class FormActivity : AppCompatActivity() {
         intent.putExtra(ConstituencySelectDialogActivity.CONSTITUENCY, district)
         startActivityForResult(intent, CONSTITUENCY_REQUEST_CODE)
     }
-    fun selectSubCounty(view: View) {}
+    fun selectSubCounty(view: View) {
+        val intent = Intent(this, SubCountySelectActivity::class.java)
+        intent.putExtra(SubCountySelectActivity.SUB_COUNTY, county.subcounties)
+        startActivityForResult(intent, COUNTY_REQUEST_CODE)
+    }
     fun selectParish(view: View) {}
     fun selectPollingStation(view: View) {}
     fun selectPosition(view: View) {}

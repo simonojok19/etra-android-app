@@ -7,19 +7,18 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import co.veritasinteractive.pollrelay.R
-import co.veritasinteractive.pollrelay.data.models.PollingStation
 
-class PollingStationAdapter(private val pollingStations: Array<PollingStation>, val context: Context): RecyclerView.Adapter<PollingStationAdapter.PollingStationViewHolder>(){
+class PollingStationAdapter(private val pollingStations: Array<String>, val context: Context): RecyclerView.Adapter<PollingStationAdapter.PollingStationViewHolder>(){
     private val onPollingClickListener = context as OnPollingClickListener
 
 
     class PollingStationViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         private val textView: TextView = itemView.findViewById(R.id.item_name)
         fun bind(
-            pollingStation: PollingStation,
+            pollingStation: String,
             onPollingClickListener: OnPollingClickListener
         ) {
-            textView.text = pollingStation.name
+            textView.text = pollingStation
             itemView.setOnClickListener {
                 onPollingClickListener.onPollingStationClick(pollingStation)
             }
@@ -41,6 +40,6 @@ class PollingStationAdapter(private val pollingStations: Array<PollingStation>, 
     }
 
     interface OnPollingClickListener {
-        fun onPollingStationClick(pollingStation: PollingStation)
+        fun onPollingStationClick(pollingStation: String)
     }
 }

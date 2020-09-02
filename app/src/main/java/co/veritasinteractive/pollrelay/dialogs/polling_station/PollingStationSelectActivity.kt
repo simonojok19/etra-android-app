@@ -30,7 +30,7 @@ class PollingStationSelectActivity : AppCompatActivity(), PollingStationAdapter.
 
     }
 
-    override fun onPollingStationClick(pollingStation: PollingStation) {
+    override fun onPollingStationClick(pollingStation: String) {
         val intent = Intent()
         intent.putExtra(POLLING_STATION, pollingStation)
         setResult(RESULT_OK, intent)

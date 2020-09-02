@@ -3,6 +3,7 @@ package co.veritasinteractive.pollrelay.dialogs.constituency
 import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import co.veritasinteractive.pollrelay.R
@@ -10,7 +11,7 @@ import co.veritasinteractive.pollrelay.data.models.County
 import co.veritasinteractive.pollrelay.data.models.District
 import kotlinx.android.synthetic.main.activity_constituency_sellect_dialog.*
 
-class ConstituencySelectDialog : AppCompatActivity() {
+class ConstituencySelectDialog : AppCompatActivity(), ConstituencyAdapter.OnItemClickListener {
     companion object {
         val CONSTITUENCY = "co.veritasinteractive.pollrelay.dialogs.constituency.ConstituencySelectDialog.CONSTITUENCY"
     }
@@ -26,5 +27,9 @@ class ConstituencySelectDialog : AppCompatActivity() {
             recyclerView.adapter = adapter
             recyclerView.layoutManager = LinearLayoutManager(this)
         }
+    }
+
+    override fun onItemClick(county: County) {
+        Toast.makeText(this, county.name, Toast.LENGTH_LONG).show()
     }
 }

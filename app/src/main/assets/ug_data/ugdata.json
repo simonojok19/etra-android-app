@@ -1,592 +1,588 @@
 {
-    "districts": [
+    "name": "081 AMUDAT",
+    "counties": [
         {
-            "name": "081 AMUDAT",
-            "counties": [
+            "name": "149 UPE COUNTY",
+            "subcounties": [
                 {
-                    "name": "149 UPE COUNTY",
-                    "subcounties": [
+                    "name": "004 AMUDAT TOWN COUNCIL",
+                    "parishs": [
                         {
-                            "name": "004 AMUDAT TOWN COUNCIL",
-                            "parishs": [
-                                {
-                                    "name": "011 KALAS WARD",
-                                    "pollingstations": [
-                                        "01 WARD B COMMUNITY HALL"
-                                    ]
-                                }
+                            "name": "011 KALAS WARD",
+                            "pollingstations": [
+                                "01 WARD B COMMUNITY HALL"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "004 AMUDAT TOWN COUNCIL",
+                    "parishs": [
                         {
-                            "name": "004 AMUDAT TOWN COUNCIL",
-                            "parishs": [
-                                {
-                                    "name": "011 KALAS WARD",
-                                    "pollingstations": [
-                                        "02 WARD B CATTLE CRUSH"
-                                    ]
-                                }
+                            "name": "011 KALAS WARD",
+                            "pollingstations": [
+                                "02 WARD B CATTLE CRUSH"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
                         {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "007 ABILIYEP",
-                                    "pollingstations": [
-                                        "02 MOKONGWO"
-                                    ]
-                                }
+                            "name": "007 ABILIYEP",
+                            "pollingstations": [
+                                "02 MOKONGWO"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "004 AMUDAT TOWN COUNCIL",
+                    "parishs": [
                         {
-                            "name": "004 AMUDAT TOWN COUNCIL",
-                            "parishs": [
-                                {
-                                    "name": "013 TINGAS WARD",
-                                    "pollingstations": [
-                                        "02 KATIKIT PRIMARY SCHOOL - B(LO-Z)"
-                                    ]
-                                }
+                            "name": "013 TINGAS WARD",
+                            "pollingstations": [
+                                "02 KATIKIT PRIMARY SCHOOL - B(LO-Z)"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
                         {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "009 LOROO",
-                                    "pollingstations": [
-                                        "02 (KONGOROK D-LOP)"
-                                    ]
-                                }
+                            "name": "009 LOROO",
+                            "pollingstations": [
+                                "02 (KONGOROK D-LOP)"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "001 AMUDAT",
+                    "parishs": [
+                        {
+                            "name": "002 KATABOK",
+                            "pollingstations": [
+                                "02 KATABOK"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "002 KARITA",
+                    "parishs": [
+                        {
+                            "name": "005 LOSIDOK",
+                            "pollingstations": [
+                                "01 CHEPTAPOYO"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "004 AMUDAT TOWN COUNCIL",
+                    "parishs": [
+                        {
+                            "name": "013 TINGAS WARD",
+                            "pollingstations": [
+                                "01 KATIKIT PRIMARY SCHOOL - A(A-LI)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
+                        {
+                            "name": "007 ABILIYEP",
+                            "pollingstations": [
+                                "05 ABILIYEP"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "002 KARITA",
+                    "parishs": [
+                        {
+                            "name": "006 LOKALES",
+                            "pollingstations": [
+                                "06 LOKALES/KARITA -C(M-Z)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "004 AMUDAT TOWN COUNCIL",
+                    "parishs": [
+                        {
+                            "name": "012 LOCHENGENGE  WARD",
+                            "pollingstations": [
+                                "02 AMUDAT TOWN COUNCIL HQTRS"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "004 AMUDAT TOWN COUNCIL",
+                    "parishs": [
+                        {
+                            "name": "010 JUMBE WARD",
+                            "pollingstations": [
+                                "02 KAKRES CATTLE DIP-B(LOK-Z)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "002 KARITA",
+                    "parishs": [
+                        {
+                            "name": "006 LOKALES",
+                            "pollingstations": [
+                                "03 AMUNA PRI.SCH."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "004 AMUDAT TOWN COUNCIL",
+                    "parishs": [
+                        {
+                            "name": "010 JUMBE WARD",
+                            "pollingstations": [
+                                "01 KAKRES CATTLE DIP-A(A-LOL)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "002 KARITA",
+                    "parishs": [
+                        {
+                            "name": "006 LOKALES",
+                            "pollingstations": [
+                                "05 LOKALES/KARITA-B(D-L)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
+                        {
+                            "name": "009 LOROO",
+                            "pollingstations": [
+                                "06 LOROO CENTRE.(CHEPOY-LOL)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "001 AMUDAT",
+                    "parishs": [
+                        {
+                            "name": "003 LOBURIN",
+                            "pollingstations": [
+                                "03 NGONGOSOWON -B(D-Z)"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "001 AMUDAT",
+                    "parishs": [
                         {
                             "name": "001 AMUDAT",
-                            "parishs": [
-                                {
-                                    "name": "002 KATABOK",
-                                    "pollingstations": [
-                                        "02 KATABOK"
-                                    ]
-                                }
+                            "pollingstations": [
+                                "02 ALAKAS A.I.C CHURCH"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
                         {
-                            "name": "002 KARITA",
-                            "parishs": [
-                                {
-                                    "name": "005 LOSIDOK",
-                                    "pollingstations": [
-                                        "01 CHEPTAPOYO"
-                                    ]
-                                }
+                            "name": "007 ABILIYEP",
+                            "pollingstations": [
+                                "04 MOKONGWO-B(CHEPOL-LOG)"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "004 AMUDAT TOWN COUNCIL",
+                    "parishs": [
                         {
-                            "name": "004 AMUDAT TOWN COUNCIL",
-                            "parishs": [
-                                {
-                                    "name": "013 TINGAS WARD",
-                                    "pollingstations": [
-                                        "01 KATIKIT PRIMARY SCHOOL - A(A-LI)"
-                                    ]
-                                }
+                            "name": "012 LOCHENGENGE  WARD",
+                            "pollingstations": [
+                                "01 LOCHENGENGE BOREHOLE"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "002 KARITA",
+                    "parishs": [
                         {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "007 ABILIYEP",
-                                    "pollingstations": [
-                                        "05 ABILIYEP"
-                                    ]
-                                }
+                            "name": "006 LOKALES",
+                            "pollingstations": [
+                                "04 CHEPKAKARAT -B(D-M)"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "001 AMUDAT",
+                    "parishs": [
                         {
-                            "name": "002 KARITA",
-                            "parishs": [
-                                {
-                                    "name": "006 LOKALES",
-                                    "pollingstations": [
-                                        "06 LOKALES/KARITA -C(M-Z)"
-                                    ]
-                                }
+                            "name": "002 KATABOK",
+                            "pollingstations": [
+                                "03 MOTANY"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "002 KARITA",
+                    "parishs": [
                         {
-                            "name": "004 AMUDAT TOWN COUNCIL",
-                            "parishs": [
-                                {
-                                    "name": "012 LOCHENGENGE  WARD",
-                                    "pollingstations": [
-                                        "02 AMUDAT TOWN COUNCIL HQTRS"
-                                    ]
-                                }
+                            "name": "004 KARITA",
+                            "pollingstations": [
+                                "05 ABONGAI COMMUNITY PRIMARY SCHOOL -B(D-Z)"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "002 KARITA",
+                    "parishs": [
                         {
-                            "name": "004 AMUDAT TOWN COUNCIL",
-                            "parishs": [
-                                {
-                                    "name": "010 JUMBE WARD",
-                                    "pollingstations": [
-                                        "02 KAKRES CATTLE DIP-B(LOK-Z)"
-                                    ]
-                                }
+                            "name": "005 LOSIDOK",
+                            "pollingstations": [
+                                "02 LOLEPON"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "001 AMUDAT",
+                    "parishs": [
                         {
-                            "name": "002 KARITA",
-                            "parishs": [
-                                {
-                                    "name": "006 LOKALES",
-                                    "pollingstations": [
-                                        "03 AMUNA PRI.SCH."
-                                    ]
-                                }
+                            "name": "002 KATABOK",
+                            "pollingstations": [
+                                "04 KAPETAWOI PRIMARY SCHOOL"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "002 KARITA",
+                    "parishs": [
                         {
-                            "name": "004 AMUDAT TOWN COUNCIL",
-                            "parishs": [
-                                {
-                                    "name": "010 JUMBE WARD",
-                                    "pollingstations": [
-                                        "01 KAKRES CATTLE DIP-A(A-LOL)"
-                                    ]
-                                }
+                            "name": "004 KARITA",
+                            "pollingstations": [
+                                "04 KARITA EVANGELICAL AFRICA MISSION CHURCH -B(LOS-Z)"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
                         {
-                            "name": "002 KARITA",
-                            "parishs": [
-                                {
-                                    "name": "006 LOKALES",
-                                    "pollingstations": [
-                                        "05 LOKALES/KARITA-B(D-L)"
-                                    ]
-                                }
+                            "name": "009 LOROO",
+                            "pollingstations": [
+                                "04 LOROO PRI. SCH.(A-CHEPOT)"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "001 AMUDAT",
+                    "parishs": [
                         {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "009 LOROO",
-                                    "pollingstations": [
-                                        "06 LOROO CENTRE.(CHEPOY-LOL)"
-                                    ]
-                                }
+                            "name": "003 LOBURIN",
+                            "pollingstations": [
+                                "01 APAMUTO C.O.U"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
                         {
-                            "name": "001 AMUDAT",
-                            "parishs": [
-                                {
-                                    "name": "003 LOBURIN",
-                                    "pollingstations": [
-                                        "03 NGONGOSOWON -B(D-Z)"
-                                    ]
-                                }
+                            "name": "007 ABILIYEP",
+                            "pollingstations": [
+                                "01 NAKWANGARET PRIMARY SCHOOL-C(LOI-Z)"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "002 KARITA",
+                    "parishs": [
                         {
-                            "name": "001 AMUDAT",
-                            "parishs": [
-                                {
-                                    "name": "001 AMUDAT",
-                                    "pollingstations": [
-                                        "02 ALAKAS A.I.C CHURCH"
-                                    ]
-                                }
+                            "name": "004 KARITA",
+                            "pollingstations": [
+                                "40 TAPARAK"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
                         {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "007 ABILIYEP",
-                                    "pollingstations": [
-                                        "04 MOKONGWO-B(CHEPOL-LOG)"
-                                    ]
-                                }
+                            "name": "008 ACHORICHOR",
+                            "pollingstations": [
+                                "02 LOMERPUS BORE-HOLE"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "001 AMUDAT",
+                    "parishs": [
                         {
-                            "name": "004 AMUDAT TOWN COUNCIL",
-                            "parishs": [
-                                {
-                                    "name": "012 LOCHENGENGE  WARD",
-                                    "pollingstations": [
-                                        "01 LOCHENGENGE BOREHOLE"
-                                    ]
-                                }
+                            "name": "003 LOBURIN",
+                            "pollingstations": [
+                                "02 NGONGOSOWON - A(A-C)"
                             ]
-                        },
-                        {
-                            "name": "002 KARITA",
-                            "parishs": [
-                                {
-                                    "name": "006 LOKALES",
-                                    "pollingstations": [
-                                        "04 CHEPKAKARAT -B(D-M)"
-                                    ]
-                                }
-                            ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "001 AMUDAT",
+                    "parishs": [
                         {
                             "name": "001 AMUDAT",
-                            "parishs": [
-                                {
-                                    "name": "002 KATABOK",
-                                    "pollingstations": [
-                                        "03 MOTANY"
-                                    ]
-                                }
+                            "pollingstations": [
+                                "03 AMUDAT SUBCOUNTY HQRTS"
                             ]
-                        },
-                        {
-                            "name": "002 KARITA",
-                            "parishs": [
-                                {
-                                    "name": "004 KARITA",
-                                    "pollingstations": [
-                                        "05 ABONGAI COMMUNITY PRIMARY SCHOOL -B(D-Z)"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "002 KARITA",
-                            "parishs": [
-                                {
-                                    "name": "005 LOSIDOK",
-                                    "pollingstations": [
-                                        "02 LOLEPON"
-                                    ]
-                                }
-                            ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "001 AMUDAT",
+                    "parishs": [
                         {
                             "name": "001 AMUDAT",
-                            "parishs": [
-                                {
-                                    "name": "002 KATABOK",
-                                    "pollingstations": [
-                                        "04 KAPETAWOI PRIMARY SCHOOL"
-                                    ]
-                                }
+                            "pollingstations": [
+                                "04 NABOKOTOM PRIMARY SCHOOL"
                             ]
-                        },
-                        {
-                            "name": "002 KARITA",
-                            "parishs": [
-                                {
-                                    "name": "004 KARITA",
-                                    "pollingstations": [
-                                        "04 KARITA EVANGELICAL AFRICA MISSION CHURCH -B(LOS-Z)"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "009 LOROO",
-                                    "pollingstations": [
-                                        "04 LOROO PRI. SCH.(A-CHEPOT)"
-                                    ]
-                                }
-                            ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "001 AMUDAT",
+                    "parishs": [
                         {
                             "name": "001 AMUDAT",
-                            "parishs": [
-                                {
-                                    "name": "003 LOBURIN",
-                                    "pollingstations": [
-                                        "01 APAMUTO C.O.U"
-                                    ]
-                                }
+                            "pollingstations": [
+                                "01 ALAKAS PRIMARY SCHOOL"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "002 KARITA",
+                    "parishs": [
                         {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "007 ABILIYEP",
-                                    "pollingstations": [
-                                        "01 NAKWANGARET PRIMARY SCHOOL-C(LOI-Z)"
-                                    ]
-                                }
+                            "name": "006 LOKALES",
+                            "pollingstations": [
+                                "02 LOKALES/KARITA -A(A-C)"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "001 AMUDAT",
+                    "parishs": [
                         {
-                            "name": "002 KARITA",
-                            "parishs": [
-                                {
-                                    "name": "004 KARITA",
-                                    "pollingstations": [
-                                        "40 TAPARAK"
-                                    ]
-                                }
+                            "name": "002 KATABOK",
+                            "pollingstations": [
+                                "01 DINGIDINGA PRI. SCH."
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
                         {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "008 ACHORICHOR",
-                                    "pollingstations": [
-                                        "02 LOMERPUS BORE-HOLE"
-                                    ]
-                                }
+                            "name": "009 LOROO",
+                            "pollingstations": [
+                                "08 LOWAN-B(CHEPOM-LOKWA)"
                             ]
-                        },
-                        {
-                            "name": "001 AMUDAT",
-                            "parishs": [
-                                {
-                                    "name": "003 LOBURIN",
-                                    "pollingstations": [
-                                        "02 NGONGOSOWON - A(A-C)"
-                                    ]
-                                }
-                            ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "001 AMUDAT",
+                    "parishs": [
                         {
                             "name": "001 AMUDAT",
-                            "parishs": [
-                                {
-                                    "name": "001 AMUDAT",
-                                    "pollingstations": [
-                                        "03 AMUDAT SUBCOUNTY HQRTS"
-                                    ]
-                                }
+                            "pollingstations": [
+                                "05 AMUDAT SUBCOUNTY -B"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
                         {
-                            "name": "001 AMUDAT",
-                            "parishs": [
-                                {
-                                    "name": "001 AMUDAT",
-                                    "pollingstations": [
-                                        "04 NABOKOTOM PRIMARY SCHOOL"
-                                    ]
-                                }
+                            "name": "009 LOROO",
+                            "pollingstations": [
+                                "40 LOWAN"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "002 KARITA",
+                    "parishs": [
                         {
-                            "name": "001 AMUDAT",
-                            "parishs": [
-                                {
-                                    "name": "001 AMUDAT",
-                                    "pollingstations": [
-                                        "01 ALAKAS PRIMARY SCHOOL"
-                                    ]
-                                }
+                            "name": "005 LOSIDOK",
+                            "pollingstations": [
+                                "04 KALAWANI PRIMARY SCHOOL"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "002 KARITA",
+                    "parishs": [
                         {
-                            "name": "002 KARITA",
-                            "parishs": [
-                                {
-                                    "name": "006 LOKALES",
-                                    "pollingstations": [
-                                        "02 LOKALES/KARITA -A(A-C)"
-                                    ]
-                                }
+                            "name": "004 KARITA",
+                            "pollingstations": [
+                                "01 KARITA EVANGELICAL AFRICA MISSION CHURCH -A(A-CHEPOS)"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
                         {
-                            "name": "001 AMUDAT",
-                            "parishs": [
-                                {
-                                    "name": "002 KATABOK",
-                                    "pollingstations": [
-                                        "01 DINGIDINGA PRI. SCH."
-                                    ]
-                                }
+                            "name": "007 ABILIYEP",
+                            "pollingstations": [
+                                "03 LOPEDOT -A(A-CHEPOK"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
                         {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "009 LOROO",
-                                    "pollingstations": [
-                                        "08 LOWAN-B(CHEPOM-LOKWA)"
-                                    ]
-                                }
+                            "name": "008 ACHORICHOR",
+                            "pollingstations": [
+                                "01 ACHORICHOR TRADING CENTRE"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
                         {
-                            "name": "001 AMUDAT",
-                            "parishs": [
-                                {
-                                    "name": "001 AMUDAT",
-                                    "pollingstations": [
-                                        "05 AMUDAT SUBCOUNTY -B"
-                                    ]
-                                }
+                            "name": "009 LOROO",
+                            "pollingstations": [
+                                "03 KONGOROK (LOR-Z)"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "002 KARITA",
+                    "parishs": [
                         {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "009 LOROO",
-                                    "pollingstations": [
-                                        "40 LOWAN"
-                                    ]
-                                }
+                            "name": "004 KARITA",
+                            "pollingstations": [
+                                "02 KARITA EVANGELICAL AFRICA MISSION CHURCH -B(CHEPOT-LOR)"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
                         {
-                            "name": "002 KARITA",
-                            "parishs": [
-                                {
-                                    "name": "005 LOSIDOK",
-                                    "pollingstations": [
-                                        "04 KALAWANI PRIMARY SCHOOL"
-                                    ]
-                                }
+                            "name": "009 LOROO",
+                            "pollingstations": [
+                                "07 LOWAN -A(A-CHEPON)"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "002 KARITA",
+                    "parishs": [
                         {
-                            "name": "002 KARITA",
-                            "parishs": [
-                                {
-                                    "name": "004 KARITA",
-                                    "pollingstations": [
-                                        "01 KARITA EVANGELICAL AFRICA MISSION CHURCH -A(A-CHEPOS)"
-                                    ]
-                                }
+                            "name": "005 LOSIDOK",
+                            "pollingstations": [
+                                "03 KALEKETYO"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "002 KARITA",
+                    "parishs": [
                         {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "007 ABILIYEP",
-                                    "pollingstations": [
-                                        "03 LOPEDOT -A(A-CHEPOK"
-                                    ]
-                                }
+                            "name": "004 KARITA",
+                            "pollingstations": [
+                                "03 ABONGAI COMMUNITY PRIMARY SCHOOL -A(A-C)"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "002 KARITA",
+                    "parishs": [
                         {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "008 ACHORICHOR",
-                                    "pollingstations": [
-                                        "01 ACHORICHOR TRADING CENTRE"
-                                    ]
-                                }
+                            "name": "006 LOKALES",
+                            "pollingstations": [
+                                "01 CHEPKAKARAT -A(A-C)"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
                         {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "009 LOROO",
-                                    "pollingstations": [
-                                        "03 KONGOROK (LOR-Z)"
-                                    ]
-                                }
+                            "name": "008 ACHORICHOR",
+                            "pollingstations": [
+                                "03 LOITABOKET"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
                         {
-                            "name": "002 KARITA",
-                            "parishs": [
-                                {
-                                    "name": "004 KARITA",
-                                    "pollingstations": [
-                                        "02 KARITA EVANGELICAL AFRICA MISSION CHURCH -B(CHEPOT-LOR)"
-                                    ]
-                                }
+                            "name": "009 LOROO",
+                            "pollingstations": [
+                                "01 KONGOROK (A-C)"
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "name": "003 LOROO",
+                    "parishs": [
                         {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "009 LOROO",
-                                    "pollingstations": [
-                                        "07 LOWAN -A(A-CHEPON)"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "002 KARITA",
-                            "parishs": [
-                                {
-                                    "name": "005 LOSIDOK",
-                                    "pollingstations": [
-                                        "03 KALEKETYO"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "002 KARITA",
-                            "parishs": [
-                                {
-                                    "name": "004 KARITA",
-                                    "pollingstations": [
-                                        "03 ABONGAI COMMUNITY PRIMARY SCHOOL -A(A-C)"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "002 KARITA",
-                            "parishs": [
-                                {
-                                    "name": "006 LOKALES",
-                                    "pollingstations": [
-                                        "01 CHEPKAKARAT -A(A-C)"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "008 ACHORICHOR",
-                                    "pollingstations": [
-                                        "03 LOITABOKET"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "009 LOROO",
-                                    "pollingstations": [
-                                        "01 KONGOROK (A-C)"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "name": "003 LOROO",
-                            "parishs": [
-                                {
-                                    "name": "009 LOROO",
-                                    "pollingstations": [
-                                        "05 LOROO PRI. SCH.(LOM-Z)"
-                                    ]
-                                }
+                            "name": "009 LOROO",
+                            "pollingstations": [
+                                "05 LOROO PRI. SCH.(LOM-Z)"
                             ]
                         }
                     ]

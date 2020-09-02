@@ -23,7 +23,7 @@ class FormActivity : AppCompatActivity() {
     }
     fun selectConstituency(view: View) {
         val intent = Intent(this, ConstituencySelectDialog::class.java)
-        intent.putExtra(ConstituencySelectDialog.CONSTITUENCY, district.counties)
+        intent.putExtra(ConstituencySelectDialog.CONSTITUENCY, district)
         startActivity(intent)
     }
     fun selectSubCounty(view: View) {}

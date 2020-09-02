@@ -1,24 +1,38 @@
 package co.veritasinteractive.pollrelay.dialogs.constituency
 
+import android.content.Context
+import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import co.veritasinteractive.pollrelay.R
+import co.veritasinteractive.pollrelay.data.models.County
+import co.veritasinteractive.pollrelay.data.models.SubCounty
 
-class ConstituencyAdapter(): RecyclerView.Adapter<ConstituencyAdapter.ConstituencyViewHolder>() {
+class ConstituencyAdapter(private val counties: Array<County>, val context: Context): RecyclerView.Adapter<ConstituencyAdapter.ConstituencyViewHolder>() {
 
     class ConstituencyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
+        private var initialView = itemView.findViewById<TextView>(R.id.item_initial)
+        private var itemName = itemView.findViewById<TextView>(R.id.item_name)
+        fun bind(county: County) {
+            initialView.text = "A"
+            itemName.text = county.name
+        }
+
 
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ConstituencyViewHolder {
-        TODO("Not yet implemented")
+        val view: View = LayoutInflater.from(context).inflate(R.layout.recycler_view_item, parent, false)
+        return ConstituencyViewHolder(view)
     }
 
     override fun onBindViewHolder(holder: ConstituencyViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        holder.bind(counties[position])
     }
 
     override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+        return counties.size
     }
 }

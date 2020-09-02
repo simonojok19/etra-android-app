@@ -18,4 +18,8 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="AppTheme.Dialog" parent="Theme.MaterialComponents.DayNight.Dialog.Bridge">
+
+    </style>
+
 </resources>

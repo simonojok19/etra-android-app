@@ -11,9 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".dialogs.parish.ParishSelectActivity"></activity>
         <activity
-            android:parentActivityName=".form.FormActivity"
-            android:name=".dialogs.sub_county.SubCountySelectActivity" />
+            android:name=".dialogs.sub_county.SubCountySelectActivity"
+            android:parentActivityName=".form.FormActivity" />
         <activity
             android:name=".dialogs.constituency.ConstituencySelectDialogActivity"
             android:parentActivityName=".form.FormActivity" />

@@ -33,6 +33,7 @@ public class JavaUgDataDownloadWorker extends Worker {
     @NonNull
     @Override
     public Result doWork() {
+        Log.d("Worker", "Running The Worker");
         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET, UrlsKt.UG_DATA_URL, new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {

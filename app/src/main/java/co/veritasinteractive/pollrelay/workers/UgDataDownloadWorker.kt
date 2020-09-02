@@ -9,10 +9,7 @@ import co.veritasinteractive.pollrelay.data.PollRelayDatabase
 import co.veritasinteractive.pollrelay.data.dao.UgDataDao
 import com.android.volley.Request
 import com.android.volley.RequestQueue
-import com.android.volley.toolbox.BasicNetwork
-import com.android.volley.toolbox.DiskBasedCache
-import com.android.volley.toolbox.HurlStack
-import com.android.volley.toolbox.JsonObjectRequest
+import com.android.volley.toolbox.*
 import org.json.JSONObject
 
 class UgDataDownloadWorker(
@@ -37,11 +34,7 @@ class UgDataDownloadWorker(
            }
 
        )
-        val cache = DiskBasedCache(context.cacheDir, 1024 * 1024)
-        val network = BasicNetwork(HurlStack())
-        val requestQueue = RequestQueue(cache, network).apply {
-            start()
-        }
+        val requestQueue = Volley.newRequestQueue(context)
         requestQueue.add(jsonRequest)
         return Result.success()
     }

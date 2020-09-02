@@ -16,7 +16,7 @@ fun startUgDataDownLoadWorker(context: Context) {
         .setRequiredNetworkType(NetworkType.CONNECTED)
         .build()
     val downloadWorkRequest: WorkRequest = PeriodicWorkRequest.Builder(
-        UgDataDownloadWorker::class.java,
+        JavaUgDataDownloadWorker::class.java,
         60,
         TimeUnit.SECONDS
     )

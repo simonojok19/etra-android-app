@@ -48,7 +48,7 @@ public class JavaUgDataDownloadWorker extends Worker {
 
         RequestQueue queue = Volley.newRequestQueue(context);
 
-        queue.add(jsonObjectRequest);
+//        queue.add(jsonObjectRequest);
         return Result.success();
     }
 }

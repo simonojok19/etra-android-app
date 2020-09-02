@@ -49,4 +49,5 @@ data class SubCounty(var name: String?, var parishs: Array<Parish>?): Parcelable
             return arrayOfNulls(size)
         }
     }
+
 }

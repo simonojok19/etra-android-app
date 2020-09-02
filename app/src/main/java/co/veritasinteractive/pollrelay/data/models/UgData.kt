@@ -3,7 +3,7 @@ package co.veritasinteractive.pollrelay.data.models
 import android.os.Parcel
 import android.os.Parcelable
 
-data class ReceivedData(var regions: Array<Region>?): Parcelable {
+data class UgData(var regions: Array<Region>?): Parcelable {
     constructor(parcel: Parcel) : this(parcel.createTypedArray(Region)) {
     }
 
@@ -11,7 +11,7 @@ data class ReceivedData(var regions: Array<Region>?): Parcelable {
         if (this === other) return true
         if (javaClass != other?.javaClass) return false
 
-        other as ReceivedData
+        other as UgData
 
         if (regions != null) {
             if (other.regions == null) return false
@@ -33,12 +33,12 @@ data class ReceivedData(var regions: Array<Region>?): Parcelable {
         return 0
     }
 
-    companion object CREATOR : Parcelable.Creator<ReceivedData> {
-        override fun createFromParcel(parcel: Parcel): ReceivedData {
-            return ReceivedData(parcel)
+    companion object CREATOR : Parcelable.Creator<UgData> {
+        override fun createFromParcel(parcel: Parcel): UgData {
+            return UgData(parcel)
         }
 
-        override fun newArray(size: Int): Array<ReceivedData?> {
+        override fun newArray(size: Int): Array<UgData?> {
             return arrayOfNulls(size)
         }
     }

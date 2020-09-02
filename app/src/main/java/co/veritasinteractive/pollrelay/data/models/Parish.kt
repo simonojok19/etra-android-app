@@ -3,10 +3,10 @@ package co.veritasinteractive.pollrelay.data.models
 import android.os.Parcel
 import android.os.Parcelable
 
-data class Parish(var name: String?, var pollingstations: Array<PollingStation>?): Parcelable {
+data class Parish(var name: String?, var pollingstations: Array<String>?): Parcelable{
     constructor(parcel: Parcel) : this(
         parcel.readString(),
-        parcel.createTypedArray(PollingStation)
+        parcel.createStringArray()
     ) {
     }
 
@@ -33,7 +33,7 @@ data class Parish(var name: String?, var pollingstations: Array<PollingStation>?
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeString(name)
-        parcel.writeTypedArray(pollingstations, flags)
+        parcel.writeStringArray(pollingstations)
     }
 
     override fun describeContents(): Int {

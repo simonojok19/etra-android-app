@@ -18,6 +18,7 @@ class SplashScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
+        PollRelayRepository.getInstance(this)
         Handler().postDelayed(Runnable {
             startActivity(Intent(this, LoginActivity::class.java))
             finish()

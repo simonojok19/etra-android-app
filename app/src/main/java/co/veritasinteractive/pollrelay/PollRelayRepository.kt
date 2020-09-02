@@ -13,7 +13,7 @@ import java.io.InputStreamReader
 
 class PollRelayRepository(context: Context) {
     private var database: PollRelayDatabase? = null;
-    var district:District? = null;
+    var district:District
 
     companion object {
         @Volatile
